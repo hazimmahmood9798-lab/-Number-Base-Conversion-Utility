@@ -78,11 +78,12 @@ int main(void) {
             printf("Test %u: print_tables (%u) -> [FORMATTED OUTPUT CHECK] [PASS]\n", test_no, n);
             print_tables(n);
         } else {
-            // Unknown line; ignore
+        
         }
     }
 
     printf("Summary: %u/%u tests passed\n", passed, total);
     fclose(f);
     return 0;
+
 }
